@@ -2,12 +2,12 @@ import pandas as pd
 import smtplib
 
 #my details
-My_name = "Test Mail"   # Replace Test mail with the name you like
+My_name = "Test Name"   # Replace Test name with the name you like
 My_email = "Testmail@email.com"  # replace Testmail@email.com with your mail
 My_pw = "TestPassword" # Replace Test Password with your mail 
 
 #setting SMTP server
-s = smtplib.SMTP('Outgoing Mail (SMTP) Server', 587) # Replace Outgoing Mail (SMTP) Server with smtp.office365.com(For gmail) or
+s = smtplib.SMTP('Outgoing Mail (SMTP) Server', 587) # Replace Outgoing Mail (SMTP) Server with smtp.gmail.com(For gmail) or
                                                                                            #smtp.office365.com (for outlook)
 s.starttls()
 s.login(My_email,My_pw)
