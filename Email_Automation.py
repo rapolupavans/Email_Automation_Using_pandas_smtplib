@@ -13,7 +13,7 @@ s.starttls()
 s.login(My_email,My_pw)
 
 #read the file
-email_list = pd.read_excel("File_Name.xls") # Replace File name with you file that to be send
+email_list = pd.read_excel("Test_File_Name.xls") # Replace File name with you file that to be send
 
 #get all the names and scores
 all_names = email_list['Name']
